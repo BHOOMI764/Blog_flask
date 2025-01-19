@@ -88,11 +88,17 @@ flask_blog/
 🌍 Endpoints
 
 GET / - Show all blog posts.
+
 GET /create - Form to create a new post.
+
 POST /create - Submit form to create a post.
+
 GET /post/int:id - View a specific blog post.
+
 GET /edit/int:id - Form to edit an existing post.
+
 POST /edit/int:id - Submit form to update a post.
+
 POST /delete/int:id - Delete a blog post.
 
 🤝 Contributing
